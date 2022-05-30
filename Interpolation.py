@@ -36,7 +36,7 @@ for j in range(0,n):
 
 fig = plt.figure(figsize=(15, 8))
 ax = fig.add_subplot(1, 1, 1)
-ax.title("Lagrange interpolation")
+ax.set_title("Lagrange interpolation")
 p_max = np.max(P)
 p_min = np.min(P)
 ax.set_xlim(a, b)

@@ -1,13 +1,10 @@
 """
 Bartosz Marszalek
-Lagrange and Hermite interpolation
+Lagrange interpolation
 Python 3.9
 """
 import matplotlib.pyplot as plt
 import numpy as np
-print("With interpolation would you like to use?")
-print("L - Lagrange interpolation\nH - Hermite interpolation")
-choice = input()
 # Lagrange interpolation
 print("Enter interpolating points")
 n = int(input("How many points?"))
